@@ -20,13 +20,13 @@ namespace CarLotSimulator
             var car1 = new Car(2013, "BMW", "1 Series");
             car1.EngineNoise = "Vroom Vroom";
             car1.HonkNoise = "Honk";
-            car1.IsDriveable = "??";
+            car1.IsDriveable = true;
             carLot.carList.Add(car1);
 
             var car2 = new Car() { Year = 2019, Make = "FIAT", Model = "124 Spider" };
             car2.EngineNoise = "Vrooom";
             car2.HonkNoise = "Bum Bumm";
-            car2.IsDriveable = "??";
+            car2.IsDriveable = true;
             carLot.carList.Add(car2);
 
             var car3 = new Car();
@@ -35,7 +35,7 @@ namespace CarLotSimulator
             car3.Model = "1500 Club Coupe";
             car3.EngineNoise = "Zoom";
             car3.HonkNoise = "Beep Beep";
-            car3.IsDriveable = "??";
+            car3.IsDriveable = true;
             carLot.carList.Add(car3);
 
             //Set the properties for each of the cars - DONE
