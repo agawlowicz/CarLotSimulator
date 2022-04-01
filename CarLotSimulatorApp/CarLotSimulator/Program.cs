@@ -23,11 +23,15 @@ namespace CarLotSimulator
             car1.IsDriveable = true;
             carLot.carList.Add(car1);
 
+            Console.WriteLine($"Current number of cars in the car lot: {CarLot.numberOfCars}");
+
             var car2 = new Car() { Year = 2019, Make = "FIAT", Model = "124 Spider" };
             car2.EngineNoise = "Vrooom";
             car2.HonkNoise = "Bum Bumm";
             car2.IsDriveable = true;
             carLot.carList.Add(car2);
+
+            Console.WriteLine($"Current number of cars in the car lot: {CarLot.numberOfCars}");
 
             var car3 = new Car();
             car3.Year = 1995;
@@ -37,6 +41,8 @@ namespace CarLotSimulator
             car3.HonkNoise = "Beep Beep";
             car3.IsDriveable = true;
             carLot.carList.Add(car3);
+
+            Console.WriteLine($"Current number of cars in the car lot: {CarLot.numberOfCars}");
 
             //Set the properties for each of the cars - DONE
             //Call each of the methods for each car - DONE
